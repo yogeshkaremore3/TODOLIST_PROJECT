@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  nav ul li {
+    display: inline-block;
+    padding: 3vw;
+  }
+  nav ul li a {
+    text-decoration: none;
+  }
+  header {
+    background-image: url("https://images.unsplash.com/photo-1655308383925-0949f1b79ffc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80");
+    height: 14vh;
+  }
+  #serchbtn {
+    width: 16vw;
+    height: 5vh;
+  }
+  .container {
+    display: flex;
+    background-image: url("https://images.unsplash.com/photo-1516617442634-75371039cb3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80");
+    background-attachment: fixed;
+    color: aliceblue;
+    padding-top: 10vh;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 8vh;
+  }
+
+  #clearid {
+    background-color: dodgerblue;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    width: 22vw;
+    height: 5vh;
+  }
+    #adding{
+      background-color:yellowgreen;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    width: 22vw;
+    height: 5vh;
+    }
+
+  #deleteid {
+    background-color:red;
+    color: aliceblue;
+    border: none;
+    width: 16vw;
+    height: 4vh;
+    border-radius: 4px;
+  }
+  th {
+    border-bottom: 2px solid rgb(125, 139, 143);
+    border-top: 2px solid rgb(125, 139, 143);
+    padding: 2vw;
+  }
+  td{
+    border-bottom: 2px solid rgb(125, 139, 143);
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  .foot{
+    display:flex;
+    background-color:rgb(26, 45, 45);
+
+    padding: 2vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:x-small;
+
+    color: aliceblue;
+  }
+  .footx{
+    width: 50vw;
+  }
+  .footy{
+    width: 50vw;
+    text-align: right;
+  
+  }
+  .footy h3 a{
+    padding: 6px;
+  } 
